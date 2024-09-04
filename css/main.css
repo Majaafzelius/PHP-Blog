@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: Roboto;
+    background-color: #EEEEEE;
+}
+img {
+    border-radius: 5%;
+}
+p {
+    margin: 30px;
+}
+header {
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: -8px -8px 50px -8px ;
+    padding: 20px 10px 0 20px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #1b7700;
+    text-decoration: underline;
+}
+#head {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 30px -20px;
+}
+footer .custom-logo {
+    width: 30%;
+    height: 30%;
+}
+header .custom-logo {
+    width: 15%;
+    height: 15%;
+}
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    align-content: center;
+    align-items:end;
+    background-color: #50634F;
+    color: white;
+    margin: -8px;
+    padding: 10px;
+}
+
+.icon {
+        width: 16px;
+        height: 16px;
+    }
+
+footer .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+main {
+    letter-spacing:1px;
+    line-height: 1.4em;
+}
+input, textarea {
+    background-color: white;
+    border: 0px;
+    padding: 10px 15px;
+    width: 50%;
+}
+button {
+    background-color: #1b7700;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+input::placeholder, textarea::placeholder {
+    color: #D1E0CD;
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+    .icon {
+        height: 32px;
+        width: 32px;
+    }
+    .menu-item {
+        background-color: #EEEEEE;
+        display: inline-flex;
+        padding: 15px;
+        border-radius: 10px 10px 0 0;
+        margin: 0px 4px;
+    }
+    /* nav {
+        margin-left: 50%;
+    } */
+    .menu {
+        margin-left: 45%;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    form {
+        margin-left: 50px;
+    }
+    #contact {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    main {
+        margin: 2% 15%;
+    }
+    img {
+        width: 50%;
+        border-radius: 30px;
+        margin: 5px 30px;
+    }
+    .pictures {
+        text-align: center;
+    }
+
+    .post {
+        background-color: #d9d9d9;
+        padding: 20px;
+        border-radius: 30px;
+        margin: 20px 0;
+    }
+    .cont {
+        display: grid;
+        grid-template-columns: 60% 45%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:801px) and (max-width: 1024px) {
+    .menu-item {
+        background-color: #EEEEEE;
+        display: inline-flex;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+        margin: 0px 5px;
+    }
+    .contain {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    form {
+        margin: 40px;
+    }
+    nav {
+        margin-left: 40%;
+    }
+    header .logo {
+        width: 35%;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    img {
+        width: 80%;
+        border-radius: 30px;
+        margin: 5px 40px;
+    }
+    main {
+        margin: 70px;
+        
+    }
+    .post {
+        background-color: #d9d9d9;
+        margin: 20px;
+        padding: 20px 40px;
+        border-radius: 20px;
+    }
+    .cont {
+        display: grid;
+        grid-template-columns: 65% 35%;
+        margin: 20px;
+    }
+    .start, h2 {
+        margin: 20px 40px;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .menu-item {
+        background-color: #EEEEEE;
+        display: inline-flex;
+        padding: 7px;
+        border-radius: 10px 10px 0 0;
+        margin: 0px 5px;
+    }
+    body {
+        font-size: 10px;
+    }
+    nav {
+        margin-left: 30%;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .icon {
+        width: 16px;
+        height: 16px;
+    }
+    header .logo {
+        width: 40%;
+    }
+    body {
+        font-size: 14px;
+    }
+    img {
+        width: 85%;
+        border-radius: 30px;
+        margin: 5px 30px;
+    }
+    main {
+        margin: 50px;
+    }
+    .post  {
+        background-color: #d9d9d9;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    #cont {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
